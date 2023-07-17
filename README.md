@@ -13,6 +13,19 @@
     * Na pagina inicial também possui uma *aba de cadastro de novos pontos*, que contém um formulário para cadastro de pontos de coleta e também o tipo de itens que esses pontos recebem.
 *  ***Observação***
     * A aplicação ainda possui alguns bugs e também melhorias a serem implementadas.
+ 
+# Projeto Final 🤩
+
+![2022-07-01 15-46-20](https://user-images.githubusercontent.com/101990719/176954000-78901690-4dab-4bc1-afd8-5b35f073a22c.gif)
+
+<h2 align="center">Para fazer o desafio usei 👇</h2>
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" width="52" alt="javascript logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" width="52" alt="css3 logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" height="40" width="52" alt="nodejs logo"   />
+          
+</div>
 
 ## Deseja contribuir? :thinking:
 Se quiser contribuir para esse repositório aqui, seja corrigindo algum problema, adicionando comentários ou melhorando a documentação, você pode seguir esse tutorial abaixo:
