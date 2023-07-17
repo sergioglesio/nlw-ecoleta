@@ -1,8 +1,8 @@
-# Next Level Week(NLW) - Rockeseat :rocket:
+<img width="1461" alt="Captura de Tela 2023-07-17 às 17 24 58" src="https://github.com/sergioglesio/nlw-ecoleta/assets/69967342/b3dff4c3-2c61-497a-bedd-46774dcb7ca8"># Next Level Week(NLW) - Rockeseat :rocket:
 
 #### :arrow_right: Repositório do projeto ECOLETA:recycle: , apresentado no Next Level Week da Rockeseat, ministrado pelo [Mayk Brito](https://github.com/maykbrito) .
 
-![ecoleta-home](https://user-images.githubusercontent.com/56324728/83991314-bfcbad00-a922-11ea-86d3-c5f1ed4aba31.png)
+![ecoleta-home](<img width="1461" alt="ECOLETA" src="https://github.com/sergioglesio/nlw-ecoleta/assets/69967342/47caad89-aa60-4a99-b8a1-bd7d83f8c665">)
 
 * **Nome do projeto:**
     * Ecoleta
