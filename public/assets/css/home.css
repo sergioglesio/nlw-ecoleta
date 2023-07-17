@@ -1,0 +1,113 @@
+#page-home{
+  background: url('../img/home-background.svg') no-repeat;
+  /* outra forma
+  background: url('../assets/home-background.svg') no-repeat; 
+  no-repeat -> impede que a imagem se repita até preencher toda a área do background 
+  */
+  background-position: 35vw bottom; /*eixos x e y, respectivamente */
+  height: 100vh;
+}
+
+.content{
+  height: 100%;
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto; /* 1 parâmetro: aplica em todos os lados
+               2 parâmetros: 1º -> top/down | 2º -> left/right
+               3 parâmetros: 1º -> top | 2º left/right | 3º -> down
+               4 parâmetros: 1º -> top | 2º right | 3º -> down | 4º -> left */
+  display: flex;
+  flex-direction: column;
+}
+
+.content header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+
+.content header a{
+  display: flex;
+  color: var(--title-color);
+  font-weight: 700; /* ou bold */
+}
+
+.content header a span{
+  background-image: url('../img/log-in.svg');
+  display: flex;
+  margin-right: 16px;
+  width: 20px;
+  height: 20px;
+}
+
+.content main{
+  max-width: 560px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+.content main h1{
+  font-size: 54px;
+}
+
+.content main p{
+  font-size: 24px;
+  line-height: 38px;
+  margin-top: 24px;
+}
+
+.content main a{
+  width: 100%;
+  max-width: 360px;
+  height: 72px;
+
+  border-radius: 8px; /* 1 parâmetro: aplica em todos os lados
+  2 parâmetros: 1º -> top-left/down-right | 2º -> top-right/down-left
+  3 parâmetros: 1º -> top-left | 2º top-right/down-left | 3º -> down-right
+  4 parâmetros: 1º -> top-left | 2º top-right | 3º -> down-left | 4º -> down-right */
+
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  
+  background-color: var(--primary-color);
+
+  transition: 400ms; /* tempo de transição para o hover */
+
+}
+
+.content main a:hover{ /* aplica uma característica especial ao passar o mouse por cima do elemento */
+  background-color: #2fb86e;
+}
+
+.content main a span{
+  width: 72px;
+  height: 72px;
+
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+
+
+  background-color: rgba(0, 0, 0, 0.08); /* PESQUISAR */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content main a span::after{ /* criando um pseudo-elemento - PESQUISAR */
+  content: "";
+  background-image: url('../img/search.svg');
+
+  width: 20px;
+  height: 20px;
+}
+
+.content main a strong{
+  flex: 1;
+  color: white;
+  text-align: center;
+}
